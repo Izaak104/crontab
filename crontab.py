@@ -24,7 +24,6 @@ nowStr = time.strftime('%y-%m-%d_%H:%M:%S', time.localtime(now))
 ##save downloaded api file in the current working directory
 with open(cwd + '/')
 
-##df.to_csv(‘path' + nowStr + '.txt', 'w') as f:
+##df.to_csv(‘' + nowStr + '.txt', 'w') as f:
 f.write(str(data))
-
 
